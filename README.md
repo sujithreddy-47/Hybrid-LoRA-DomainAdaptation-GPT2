@@ -73,6 +73,7 @@ The `results/` folder includes:
 dyloRA-dcLoRA-gpt2-project/
 │
 ├── ai_project.ipynb # Jupyter notebook (all training & analysis)
+│
 ├── results/ # Contains all experiment outputs
 │ ├── hybrid_multi_seeds_summary.csv
 │ ├── lora_multi_seeds_summary.csv
@@ -80,12 +81,10 @@ dyloRA-dcLoRA-gpt2-project/
 │ ├── training_loss_plot.png
 │ ├── eval_accuracy_plot.png
 │ └── ... (other result files)
-│
-├── README.md # This file
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
-└── .gitignore # Ignored temporary files
-
+|
+├──images
+│ ├── hybrid stage 1(IMDB) history
+│ ├── hybrid stage 2(YELP) history
 
 
 
