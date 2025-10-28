@@ -86,7 +86,8 @@ DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │   ├── hybrid_stage2_Yelp_history.png
 │   └── ... (other result files)
 │
-├── ai_project.ipynb
+├── project_code_file.ipynb
+├── project_code_file.pdf
 │
 ├── README.md                         
 
