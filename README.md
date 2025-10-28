@@ -72,7 +72,9 @@ The `results/` folder includes:
 
 DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │
-├── ai_project.ipynb                  
+├── images/                          
+│   ├── hybrid_stage1_IMDb_history.png
+│   ├── hybrid_stage2_Yelp_history.png                  
 │
 ├── results/                          
 │   ├── hybrid_multi_seeds_summary.csv
@@ -84,16 +86,11 @@ DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │   ├── hybrid_stage2_Yelp_history.png
 │   └── ... (other result files)
 │
-├── images/                          
-│   ├── hybrid_stage1_IMDb_history.png
-│   ├── hybrid_stage2_Yelp_history.png
+├── ai_project.ipynb
 │
 ├── README.md                         
 
                
-
-
-
 
 ---
 
