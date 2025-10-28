@@ -70,21 +70,29 @@ The `results/` folder includes:
 
 ## 🧮 Directory Structure
 
-dyloRA-dcLoRA-gpt2-project/
+DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │
-├── ai_project.ipynb # Jupyter notebook (all training & analysis)
+├── ai_project.ipynb                  # Main Jupyter notebook (all training & analysis)
 │
-├── results/ # Contains all experiment outputs
-│ ├── hybrid_multi_seeds_summary.csv
-│ ├── lora_multi_seeds_summary.csv
-│ ├── combined_seeds_summary.csv
-│ ├── training_loss_plot.png
-│ ├── eval_accuracy_plot.png
-│ └── ... (other result files)
-|
-├──images
-│ ├── hybrid stage 1(IMDB) history
-│ ├── hybrid stage 2(YELP) history
+├── results/                          
+│   ├── hybrid_multi_seeds_summary.csv
+│   ├── lora_multi_seeds_summary.csv
+│   ├── combined_seeds_summary.csv
+│   ├── training_loss_plot.png
+│   ├── eval_accuracy_plot.png
+│   ├── hybrid_stage1_IMDb_history.png
+│   ├── hybrid_stage2_Yelp_history.png
+│   └── ... (other result files)
+│
+├── images/                          
+│   ├── hybrid_stage1_IMDb_history.png
+│   ├── hybrid_stage2_Yelp_history.png
+│
+├── README.md                         
+├── requirements.txt                 
+├── LICENSE                          
+└── .gitignore                       
+
 
 
 
