@@ -74,7 +74,7 @@ DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │
 ├── ai_project.ipynb                  # Main Jupyter notebook (all training & analysis)
 │
-├── results/                          
+├── results/                          # All experiment outputs
 │   ├── hybrid_multi_seeds_summary.csv
 │   ├── lora_multi_seeds_summary.csv
 │   ├── combined_seeds_summary.csv
@@ -84,14 +84,15 @@ DyLoRA-DC-LoRA-GPT2-Domain-Adaptation/
 │   ├── hybrid_stage2_Yelp_history.png
 │   └── ... (other result files)
 │
-├── images/                          
+├── images/                           # Optional folder for visualization images
 │   ├── hybrid_stage1_IMDb_history.png
 │   ├── hybrid_stage2_Yelp_history.png
 │
-├── README.md                         
-├── requirements.txt                 
-├── LICENSE                          
-└── .gitignore                       
+├── README.md                         # Project documentation
+├── requirements.txt                  # Python dependencies
+├── LICENSE                           # MIT License
+└── .gitignore                        # Ignored temporary files
+               
 
 
 
